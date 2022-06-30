@@ -1,7 +1,9 @@
 *{
     box-sizing: border-box;
 }
-
+body{
+    height:100vh;
+}
 div{
     height:50px;
     width:50px;
@@ -12,6 +14,8 @@ div{
     position: absolute;
     top:50%;
     left:50%;
+    right:50%;
+    bottom: 50%;
     display: none;
 }
 @keyframes spin {

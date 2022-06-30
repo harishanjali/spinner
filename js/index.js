@@ -1,6 +1,10 @@
-let spinner = document.querySelector('div');
+let spinner = document.querySelector('#spinner');
 let getDataBtn = document.getElementById('getDataBtn');
 
+
+function createPosts(data){
+
+}
 getDataBtn.onclick = function(){
     spinner.style.display = 'block';
     console.log('Data is fetching....');
